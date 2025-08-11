@@ -2,10 +2,14 @@
   "name": "03",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": " "
+    "dev": "nodemon src/index.js"
   },
   "author": "harshal borkar",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
 }
